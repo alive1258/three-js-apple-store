@@ -10,7 +10,7 @@ Title: macbook pro M3 16 inch 2024
 
 import { useGLTF, useTexture } from "@react-three/drei";
 
-export function MacBookModel16(props) {
+export default function MacBookModel16(props) {
   const { nodes, materials } = useGLTF("/models/macbook-16-transformed.glb");
 
   const textTure = useTexture("/screen.png");

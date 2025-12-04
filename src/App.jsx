@@ -1,7 +1,10 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import ProductViewer from "./components/ProductViewer";
-import StudioLights from "./components/StudioLights";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
   return (
