@@ -1,16 +1,79 @@
-# React + Vite
+# 🍏 Apple Store 3D — React + Three.js + GSAP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully interactive 3D Apple Store experience built using React, Three.js, React Three Fiber, GSAP animations, and Tailwind CSS.
+This project showcases smooth 3D interactions, responsive UI, immersive animations, and Apple-style product presentation.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 3D Experience
 
-## React Compiler
+-- Built with Three.js + React Three Fiber
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-- Smooth camera controls & animations
 
-## Expanding the ESLint configuration
+-- High-quality 3D model rendering
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-- Interactive product showcase
+
+## Smooth Animations
+
+-- GSAP + @gsap/react for buttery transitions
+
+-- Scroll & hover-triggered animations
+
+-- Fluid UI interactions
+
+# Responsive UI
+
+-- Tailwind CSS for layout + responsiveness
+
+-- Beautiful Apple-like design
+
+-- Mobile + desktop optimized
+
+## State Management
+
+-- Zustand for lightweight and clean global state
+
+## Tech Stack
+
+| Category             | Technology                         |
+| -------------------- | ---------------------------------- |
+| Frontend Framework   | React 19                           |
+| 3D Engine            | Three.js                           |
+| React Three Renderer | @react-three/fiber                 |
+| 3D Helpers           | @react-three/drei                  |
+| Animations           | GSAP, @gsap/react                  |
+| Styling              | Tailwind CSS 4 + @tailwindcss/vite |
+| Bundler              | Vite 5                             |
+| State Management     | Zustand                            |
+| Responsive Handling  | react-responsive                   |
+| Linting              | ESLint                             |
+
+## Getting Started Installation
+
+First, run the development server:
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/apple-store-3d.git
+
+# Go to folder
+cd apple-store-3d
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+```
+
+## Build for Production
+
+```bash
+npm run build
+npm run preview
+
+
+```
