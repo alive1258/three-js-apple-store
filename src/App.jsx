@@ -1,6 +1,7 @@
 // App.jsx
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 import ProductViewer from "./components/ProductViewer";
 import ThreeJSPlayground from "./components/ThreeJSPlayground";
 import FloatingFeatures from "./components/FloatingFeatures";
@@ -20,6 +21,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const HomePage = () => (
   <>
+    <Hero />
     <ProductViewer />
     <ThreeJSPlayground />
     <FloatingFeatures />
