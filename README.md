@@ -77,3 +77,13 @@ npm run preview
 
 
 ```
+
+## Contribution
+
+Pull requests are welcome!
+If you want to improve the 3D interactions, animations, or UI, feel free to contribute.
+
+## ⭐ Support
+
+If you like this project,
+please ⭐ the repository — it motivates future improvements!
