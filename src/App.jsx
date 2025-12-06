@@ -1,7 +1,6 @@
 // App.jsx
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import NavBar from "./components/NavBar";
-import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
 import ProductViewer from "./components/ProductViewer";
 import ThreeJSPlayground from "./components/ThreeJSPlayground";
 import FloatingFeatures from "./components/FloatingFeatures";
@@ -21,7 +20,6 @@ gsap.registerPlugin(ScrollTrigger);
 
 const HomePage = () => (
   <>
-    <Hero />
     <ProductViewer />
     <ThreeJSPlayground />
     <FloatingFeatures />
@@ -39,7 +37,7 @@ const App = () => {
   return (
     <Router>
       <div className="bg-black min-h-screen">
-        <NavBar />
+        <Navbar />
         <main>
           <Routes>
             <Route path="/" element={<HomePage />} />
